@@ -1,0 +1,14 @@
+.hideContainer{
+  display: none;
+}
+
+.card-Locales-container{
+  background: rgba(226,226,226,.5);
+  padding: 15px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  float: left;
+  overflow-y: auto;
+  max-height: 560px;
+  min-width: 660px;
+}

@@ -1,0 +1,25 @@
+body {
+  font-family: 'Lexend Deca', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.principal-row{
+      margin-right: 0px !important;
+}
+
+.title-Module{
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+  font-size: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.dropDown-container{
+  background: rgba(226,226,226,.5);
+  padding: 15px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  float: left;
+}

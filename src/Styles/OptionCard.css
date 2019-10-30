@@ -1,0 +1,49 @@
+.option-label{
+  background-color: white;
+  padding: 1rem;
+  border-radius: 16px 16px 16px 16px;
+  -moz-border-radius: 16px 16px 16px 16px;
+  -webkit-border-radius: 16px 16px 16px 16px;
+  border: 2px outset #8c858c;
+}
+
+.principal-card{
+    width: 7rem;
+    min-height: 2.6rem;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    float: left;
+}
+
+.hidden-input{
+  display: none;
+}
+
+input[type="radio"]:checked + label{
+  -webkit-box-shadow:0px 0px 5px 1px #000000 ;
+  -moz-box-shadow:0px 0px 5px 1px #000000 ;
+  box-shadow:0px 0px 5px 1px #000000 ;
+
+}
+
+.locale-color{
+  background-color: #4CAF50;
+}
+
+.warehouse-color{
+  background-color: #0C9DE8;
+}
+
+.sku-color{
+  background-color: #38D1FF;
+}

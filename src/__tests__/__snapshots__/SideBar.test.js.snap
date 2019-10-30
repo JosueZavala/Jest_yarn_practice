@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle Changed 1`] = `
+<div
+  className="row principal-row"
+>
+  <div
+    className="col-2"
+  >
+    <div
+      className="active"
+      id="wrapper"
+    >
+      <div
+        id="sidebar-wrapper"
+      >
+        <ul
+          className="sidebar-nav"
+          id="sidebar_menu"
+        >
+          <li
+            className="sidebar-brand"
+            onClick={[Function]}
+          >
+            <a
+              id="menu-toggle"
+            >
+              Mobile Tool 
+              <i
+                aria-hidden="true"
+                className="fa fa-bars"
+                id="menu-icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul
+          className="sidebar-nav"
+          id="sidebar"
+        >
+          <li>
+            <a
+              aria-current="page"
+              className="active"
+              href="/"
+              onClick={[Function]}
+              style={Object {}}
+            >
+              <p>
+                Generate Catalog
+                 
+                <i
+                  className="fa fa-file-text"
+                  id="menu-icon"
+                />
+              </p>
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              href="/WareHosuesInfo"
+              onClick={[Function]}
+            >
+              <p>
+                Warehoses info
+                 
+                <i
+                  className="fa fa-server"
+                  id="menu-icon"
+                />
+              </p>
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current={null}
+              href="/PaymentRestrictions"
+              onClick={[Function]}
+            >
+              <p>
+                Payment Restrictions
+                 
+                <i
+                  className="fa fa-money"
+                  id="menu-icon"
+                />
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div
+    className="col-10"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="title-Module"
+            >
+              Catalog Generator
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="col-sm dropDown-container"
+              >
+                <div
+                  className="row SearchInput"
+                >
+                  <div
+                    className="col-5 input-container"
+                  >
+                    <button
+                      className="dropbtn"
+                    >
+                      Find Locale...
+                    </button>
+                    <input
+                      id="myInput"
+                      onChange={[Function]}
+                      placeholder="Search.."
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                  <div
+                    className="col-7 mesage-container"
+                  >
+                    
+                  </div>
+                </div>
+                <div
+                  className="row"
+                >
+                  <div
+                    className="card-Locales-container hideContainer"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

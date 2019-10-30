@@ -1,0 +1,174 @@
+.locales-container, .restrictions-container, .actions-container, .actions-restrictions-container{
+  height: 11rem;
+  min-height: 150px;
+  background: rgba(226,226,226,.5);
+  padding: 15px;
+  float: left;
+  overflow-y: auto;
+}
+
+.second-step .restrictions-container{
+  margin-bottom: 0rem;
+  height: 15rem;
+}
+
+.second-step .actions-restrictions-container{
+  margin-bottom: 0rem;
+  height: 15rem;
+}
+
+.second-step .options-container{
+  max-height: 11rem;
+}
+
+.toggle-container{
+
+  padding: 15px;
+  margin-bottom: 2rem;
+}
+
+.locales-container{
+  width: 80%;
+}
+
+.restrictions-container{
+  width: 73%;
+}
+
+.actions-container, .actions-restrictions-container{
+  min-width: 20%;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  font-size: 24px;
+}
+
+.actions-restrictions-container{
+  min-width: 27%;
+}
+
+.first-step, .second-step, .third-step{
+  width: 100%
+}
+
+.title-segment, .options-container{
+  margin-left: 2rem;
+}
+
+.nowrap-row{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: .75rem;
+}
+
+.options-container{
+  max-width: 90%;
+  width: 90rem;
+  max-height: 7rem;
+  background-color: white;
+  padding: 1rem;
+  float: left;
+  overflow-x: scroll;
+}
+
+.action-button{
+  padding: 0.5rem;
+}
+
+.general-restrictions, .payment-restrictions-panel{
+  width: 40%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Toogles Restrictions styles*/
+.styleLeft { float: left; }
+.styleRight = { float: right; }
+.height = { height: 45px; }
+
+
+@media (max-width: 1511px) {
+  .actions-restrictions-container{
+    min-width: 20%;
+    font-size: 16px;
+  }
+
+  .restrictions-container{
+    width: 75%;
+  }
+
+  .actions-container{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1410px) {
+  .actions-restrictions-container{
+    padding-left: 1.5rem;
+    font-size: 14px;
+  }
+}
+
+
+
+
+@media (max-width: 1225px) {
+  .actions-container{
+    padding-left: 1rem;
+    padding-top: 3.5rem;
+    font-size: 14px;
+  }
+  .actions-restrictions-container{
+    padding-left: 1rem;
+    font-size: 14px;
+  }
+  .action-button{
+    margin-right: 0.4rem;
+  }
+
+}
+
+@media (max-width: 920px) {
+  .actions-container, .actions-restrictions-container{
+    padding-left: 8px;
+    padding-right: 0.5rem;
+    font-size: 14px;
+
+  }
+
+  .action-button{
+
+
+  }
+
+  .general-restrictions{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 652px) {
+  .actions-restrictions-container{
+    padding: 10px;
+    min-height: 60px;
+    width: 75%;
+  }
+
+  .action-button{
+    margin-left: 3rem;
+    font-size: 13px;
+  }
+
+ .restrictions-container, .actions-restrictions-container{
+   /*height: 98px;*/
+   max-height: 166px;
+   margin-bottom: 0rem;
+   margin-top: 0rem;
+   padding-right: 1.3rem;
+ }
+
+ .general-restrictions{
+   margin-top: 20px;
+ }
+
+}

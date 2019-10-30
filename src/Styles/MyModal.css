@@ -1,0 +1,8 @@
+.Modalbody{
+  font-size: 10px;
+  overflow: auto;
+}
+
+td input[type=text], td input[type=checkbox]{
+  width: 75px;
+}
