@@ -23,6 +23,7 @@ class LocaleCard extends React.Component{
         swaltitle: title,
         swaltext: text
       });
+      /*some test*/
   }
 
   render() {
